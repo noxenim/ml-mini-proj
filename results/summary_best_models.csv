@@ -1,0 +1,4 @@
+Task,Dataset,Best Algorithm,Selection Metric,Performance Score,Key Trade-off / Rationale
+Customer Segmentation (Clustering),Mall_Customers.csv,K-Means (k=5),Silhouette Score & Full-Population Coverage,Silhouette: 0.5547 (Calinski-Harabasz: 248.65),K-Means cleanly clusters 100% of customers into 5 clear business archetypes without leaving 23 unassigned noise points like DBSCAN.
+Purchase Prediction (Classification),Social_Network_Ads.csv,K-Nearest Neighbors,F1-score (Balance of Precision & Recall),"F1: 0.8767 (Accuracy: 91.0%, ROC-AUC: 0.9117)",Captures local non-linear interaction between age and salary thresholds better than linear models.
+Lifestyle Risk Prediction (Boosting),insurance_pre.csv,Gradient Boosting,F1-score & ROC-AUC,"F1: 0.9369 (Accuracy: 97.39%, ROC-AUC: 0.9952)","Gradient Boosting sequentially optimizes log-loss, capturing charge-driven risk separation with near-perfect accuracy."

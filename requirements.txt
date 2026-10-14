@@ -1,0 +1,15 @@
+# Machine Learning Algorithm Comparison Project
+# Core Data Science & ML Dependencies
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+xgboost>=2.0.0
+
+# Document & Report Generation
+reportlab>=4.0.0
+fpdf2>=2.8.0
+nbformat>=5.9.0
+ipykernel>=6.29.0

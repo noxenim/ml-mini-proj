@@ -1,0 +1,4 @@
+Algorithm,Task Type,Target Column,MAE ($),RMSE ($),R2-Score,Selected Configuration
+XGBoost Regressor,Regression (Companion),charges,2405.37,4252.51,0.8835,"n_estimators=100, learning_rate=0.1, max_depth=3, objective='reg:squarederror'"
+Gradient Boosting Regressor,Regression (Companion),charges,2424.53,4342.91,0.8785,"n_estimators=100, learning_rate=0.1, max_depth=3, loss='squared_error'"
+AdaBoost Regressor,Regression (Companion),charges,4444.22,5191.36,0.8264,"n_estimators=100, learning_rate=0.5, loss='linear'"

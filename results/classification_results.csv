@@ -1,0 +1,7 @@
+Algorithm,Accuracy,Precision,Recall,F1-score,ROC-AUC,CV Accuracy (5-Fold),Selected Configuration
+K-Nearest Neighbors,0.91,0.8649,0.8889,0.8767,0.9117,0.8967,"n_neighbors=5, metric='minkowski' (p=2 Euclidean)"
+Random Forest,0.89,0.8378,0.8611,0.8493,0.9462,0.9067,"n_estimators=100, max_depth=5, criterion='gini'"
+Support Vector Machine (RBF),0.89,0.8378,0.8611,0.8493,0.9527,0.91,"kernel='rbf', C=1.0, gamma='scale'"
+Decision Tree,0.88,0.8158,0.8611,0.8378,0.9364,0.9133,"max_depth=4, min_samples_split=5, criterion='gini'"
+Naive Bayes,0.87,0.8485,0.7778,0.8116,0.9475,0.8833,"GaussianNB (priors=None, var_smoothing=1e-9)"
+Logistic Regression,0.81,0.8148,0.6111,0.6984,0.911,0.84,"C=1.0, solver='lbfgs', max_iter=1000"

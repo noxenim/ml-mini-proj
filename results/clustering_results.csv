@@ -1,0 +1,4 @@
+Algorithm,Clusters,Noise Points,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Score,Selected Configuration
+K-Means,5,0,0.5547,0.5722,248.65,"k=5, n_init=10, random_state=42"
+Agglomerative (Hierarchical),5,0,0.5538,0.5779,244.41,"n_clusters=5, linkage='ward'"
+DBSCAN,6,23,0.5577,0.5106,245.36,"eps=0.35, min_samples=5 (Metrics on 177 non-noise points)"
